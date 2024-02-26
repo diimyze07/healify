@@ -1,12 +1,11 @@
 import SignInButton from "./sign-in-button";
 import NavButton from "./nav-button";
 import SearchBox from "./search-box";
-import { ChatBubbleLeftRightIcon } from "@heroicons/react/24/solid";
 import { UserCircleIcon } from "@heroicons/react/24/solid";
 
 export default function Nav({ isSignedIn }: { isSignedIn: boolean }) {
   return (
-    <nav className="py-2 relative ml-auto mr-auto px-9 max-w-[1800px]">
+    <nav className="py-2 relative ml-auto mr-auto px-9 max-w-screen-2xl">
       <ul className="flex items-center gap-3">
         <SearchBox />
         <li className="mr-auto">
@@ -15,10 +14,7 @@ export default function Nav({ isSignedIn }: { isSignedIn: boolean }) {
           </a>
         </li>
         <li>
-          <NavButton color="light">
-            {/* <ChatBubbleLeftRightIcon className="w-4 h-4" /> */}
-            Help
-          </NavButton>
+          <NavButton color="light">Help</NavButton>
         </li>
         <li>
           {isSignedIn ? (

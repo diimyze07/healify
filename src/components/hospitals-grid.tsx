@@ -64,7 +64,7 @@ export default function HosptialsGrid({
 
   return (
     <div
-      className="grid gap-5 gap-y-9 ml-auto mr-auto px-9 max-w-[1800px]"
+      className="grid gap-5 gap-y-10 ml-auto mr-auto px-9 max-w-screen-2xl"
       style={{
         gridTemplateColumns: "repeat(auto-fill, minmax(235px, 1fr))",
       }}
