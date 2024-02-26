@@ -48,7 +48,7 @@ export default async function Home() {
   return (
     <div className="">
       <Nav isSignedIn={isSignedIn} />
-      <main className="mt-6">
+      <main className="mt-8">
         <HosptialsGrid hospitalsData={hospitalsDataWithImages} />
       </main>
     </div>

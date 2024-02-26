@@ -21,9 +21,9 @@ export default function HospitalCard({
   return (
     <Link href="/">
       <div className="group cursor-pointer transition-all duration-200">
-        <div className="mb-[0.7rem] w-full relative flex flex-col justify-end aspect-[10/5.5] overflow-hidden rounded-lg transition-all hover:brightness-[0.8] duration-[400ms]">
+        <div className="mb-[0.55rem] w-full relative flex flex-col justify-end aspect-[10/6] overflow-hidden rounded-xl transition-all hover:brightness-[0.8] duration-[400ms]">
           <Image
-            className="object-cover saturate-[1.1] contrast-[1.05]"
+            className="object-cover contrast-[1.05]"
             src={imageSrc}
             alt="hospital-image"
             fill
@@ -31,7 +31,7 @@ export default function HospitalCard({
           />
         </div>
         <div>
-          <div className="flex justify-between select-none mb-[0.25rem] text-[1.05rem]">
+          <div className="flex justify-between select-none mb-[0.25rem] text-[0.95rem]">
             <h2 className="font-medium">
               {name.length > 20 ? `${name.slice(0, 20)} ...` : name}
             </h2>

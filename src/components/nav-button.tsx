@@ -12,7 +12,7 @@ export default function NavButton({
 
   return (
     <button
-      className={`font-medium p-[0.5rem] px-[0.7rem] rounded-lg ${backgroundColor} text-[0.9rem] ${textColor} flex items-center justify-center gap-[0.25rem] transition-all duration-[400ms] ${hoverBackgroundColor}`}
+      className={`font-medium p-[0.6rem] px-[0.7rem] rounded-xl ${backgroundColor} text-[0.8rem] ${textColor} flex items-center justify-center gap-[0.25rem] transition-all duration-[400ms] ${hoverBackgroundColor}`}
       type="submit"
     >
       {children}

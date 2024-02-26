@@ -6,7 +6,7 @@ import { UserCircleIcon } from "@heroicons/react/24/solid";
 
 export default function Nav({ isSignedIn }: { isSignedIn: boolean }) {
   return (
-    <nav className="py-4 relative ml-auto mr-auto px-7 max-w-screen-2xl">
+    <nav className="py-2 relative ml-auto mr-auto px-9 max-w-[1800px]">
       <ul className="flex items-center gap-3">
         <SearchBox />
         <li className="mr-auto">
@@ -16,7 +16,7 @@ export default function Nav({ isSignedIn }: { isSignedIn: boolean }) {
         </li>
         <li>
           <NavButton color="light">
-            <ChatBubbleLeftRightIcon className="w-4 h-4" />
+            {/* <ChatBubbleLeftRightIcon className="w-4 h-4" /> */}
             Help
           </NavButton>
         </li>
